@@ -50,4 +50,8 @@ client.version().then(d => console.log(d)) // it will return the version
 ```js
 console.log(client.getSkinsByCreator('Jytesh'))
 ```
+### getting itemsales from a weapon, body, hat, etc.
+```js
+client.getItemSales('Vantablack').then(console.log);
+```
 
